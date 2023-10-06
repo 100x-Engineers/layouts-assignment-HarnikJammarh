@@ -28,6 +28,8 @@ module.exports = {
         'success': '#00BE74',
         'error': '#8B141A',
         'secondary': '#FFFFFF99',
+        'stroke':'rgba(29, 155, 240, 0.24)',
+        'bg-edit-profile': 'rgba(0, 0, 0, 0.60)',
       },
 
       fontFamily: {

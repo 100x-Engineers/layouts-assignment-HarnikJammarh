@@ -30,9 +30,13 @@
         <!-- user and 100x logo -->
         <section class="flex w-390 py-12 px-16 items-center gap-[128px] border-b border-solid border-neutral-700">
             <!-- user avatar -->
-            <div>
-                <img src="../public/images/user.jpeg" alt="User avatar" class="w-[36px] h-[36px] shrink-0 rounded-200">
-            </div>
+            <a href="../src/user_profile.html">
+                <button>
+                    <div>
+                        <img src="../public/images/user.jpeg" alt="User avatar" class="w-[50px] h-[50px] shrink-0 rounded-200">
+                    </div>
+                </button>
+            </a>
 
             <!-- 100x logo -->
             <div class="flex justify-center items-end gap-[2px]">
@@ -80,10 +84,11 @@
                     class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
 
                     <!-- user avatar -->
-                    <div>
-                        <img src="../public/images/user.jpeg" alt="User Avatar"
-                            class="w-[48px] h-[48px] shrink-0 rounded-[200px]">
-                    </div>
+                    <a href="../src/user_profile.html">
+                            <div>
+                                <img src="../public/images/user.jpeg" alt="User avatar" class="w-[50px] h-[50px] shrink-0 rounded-200">
+                            </div>
+                    </a>
 
                     <!-- frame 8 -->
                     <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
@@ -259,7 +264,8 @@
                                     easier after the first sentence. <br><br>Lifting gets easier after the first set.
                                     <br><br>People think and think and think until they finally decide to act. Their
                                     attention shifts from internal to external, and the difficulty they created in their
-                                    mind vanishes.</p>
+                                    mind vanishes.
+                                </p>
                             </div>
 
                         </div>
@@ -336,7 +342,8 @@
                                     easier after the first sentence. <br><br>Lifting gets easier after the first set.
                                     <br><br>People think and think and think until they finally decide to act. Their
                                     attention shifts from internal to external, and the difficulty they created in their
-                                    mind vanishes.</p>
+                                    mind vanishes.
+                                </p>
                             </div>
 
                         </div>
@@ -413,7 +420,8 @@
                                     easier after the first sentence. <br><br>Lifting gets easier after the first set.
                                     <br><br>People think and think and think until they finally decide to act. Their
                                     attention shifts from internal to external, and the difficulty they created in their
-                                    mind vanishes.</p>
+                                    mind vanishes.
+                                </p>
                             </div>
 
                         </div>
@@ -455,39 +463,42 @@
                     </div>
                 </section>
 
-                <!-- frame 27193 -->
-                <section
-                    class="flex py-12 px-[32px] justify-center items-center gap-10 absolute left-[90px] bottom-[267px] rounded-[100px] bg-searchbarfill">
-                    <p class="text-neutral-50 font-inter text-[15px] leading-normal font-normal">
-                        Copied to clipboard.
-                    </p>
-                </section>
-
             </section>
         </section>
 
         <!-- compose tweet button -->
-        <a href="../src">
-            <button
-                class="inline-flex p-16 items-start gap-10 rounded-[32px] bg-twitterblue shadow-3xl fixed bottom-0 right-0 mb-16 mr-3">
-                <img src="../public/images/compose-tweet-plus.svg" alt="compose tweet"
-                    class="flex w-[32px] h-[32px] justify-center items-center">
-            </button>
+        <a href="../src/compose_tweet.html">
+            <section class="fixed top-[585px] left-[320px]">
+                <button class="inline-flex p-16 items-start gap-10 rounded-[32px] bg-twitterblue shadow-3xl">
+                    <img src="../public/images/compose-tweet-plus.svg" alt="compose tweet"
+                        class="flex w-[32px] h-[32px] justify-center items-center">
+                </button>
+            </section>
         </a>
 
     </main>
 
     <!-- footer -->
     <section
-    class="flex w-390 py-[18px] px-24 justify-center items-center gap-[40px] border-t border-solid border-neutral-800 bg-neutral-1000">
-    <div>
-        <img src="../public/images/home.svg" alt="home icon" class="w-24 h-24 shrink-0">
-    </div>
+        class="flex w-390 py-[18px] px-24 justify-center items-center gap-[40px] border-t border-solid border-neutral-800 bg-neutral-1000 fixed top-[650px]">
+        <div>
+            <img src="../public/images/home.svg" alt="home icon" class="w-24 h-24 shrink-0">
+        </div>
 
-    <div class="flex w-24 h-24 p-[4px] justify-center items-center shrink-0">
-        <img src="../public/images/profile-icon.svg" alt="profile icon" class="w-16 h-16 shrink-0">
-    </div>
-</section>
+        <a href="../src/user_profile.html">
+            <button class="flex w-24 h-24 p-[4px] justify-center items-center shrink-0">
+                <img src="../public/images/profile-icon.svg" alt="profile icon" class="w-16 h-16 shrink-0">
+            </button>
+        </a>
+    </section>
+
+    <!-- frame 27193 -->
+    <section
+        class="flex py-12 px-[32px] justify-center items-center gap-10 fixed left-[90px] top-[600px] rounded-[100px] bg-searchbarfill">
+        <p class="text-neutral-50 font-inter text-[15px] leading-normal font-normal">
+            Copied to clipboard.
+        </p>
+    </section>
 </body>
 
 </html>
