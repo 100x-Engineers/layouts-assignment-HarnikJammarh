@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Feed</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
+</head>
+
+<body>
+    <header class="w-390 shrink-0 bg-neutral-1000">
+        <!-- notif -->
+        <section
+            class="flex w-390 h-44 pt-[14px] pb-[12px] pl-[19.9px] pr-[14.5px] justify-end items-center gap-[234.606px] shrink-0">
+
+            <div class="w-[54px] h-[18px] shrink-0">
+                <p
+                    class="w-[54px] text-neutral-50 text-center font-inter text-[15px] leading-[18px] font-bold tracking-[-0.165px]">
+                    11:11</p>
+            </div>
+
+            <div class="w-[67px] h-[11.5px] shrink-0">
+                <img src="../public/images/login-container.svg" alt="icons">
+            </div>
+
+        </section>
+
+        <!-- user and 100x logo -->
+        <section class="flex w-390 py-12 px-16 items-center gap-[128px] border-b border-solid border-neutral-700">
+            <!-- user avatar -->
+            <a href="../src/user_profile.html">
+                <button>
+                    <div>
+                        <img src="../public/images/user.jpeg" alt="User avatar" class="w-[50px] h-[50px] shrink-0 rounded-200">
+                    </div>
+                </button>
+            </a>
+
+            <!-- 100x logo -->
+            <div class="flex justify-center items-end gap-[2px]">
+                <img src="../public/images/100x-mobile.svg" alt="100x Logo">
+            </div>
+        </section>
+    </header>
+
+    <!-- copy link/share -->
+    <main class="w-390 shrink-0 bg-neutral-1000">
+
+        <!-- feed -->
+        <section class="flex w-390 py-0 px-[1px] flex-col items-start">
+            <!-- frame 26827 -->
+            <section
+                class="flex w-full h-58 px-[40px] justify-center items-center gap-160 shrink-0 border-b-1 border-solid border-neutral-700">
+                <!-- frame 27050 -->
+                <section class="flex flex-col justify-center items-center">
+                    <button
+                        class="relative font-inter text-base leading-normal font-medium text-neutral-50 group focus:text-neutral-400">
+                        For you
+                        <div
+                            class="absolute block w-58 h-3 rounded-30 bg-twitterblue invisible group-focus:visible mt-[16px]">
+                        </div>
+                    </button>
+                </section>
+
+                <section class="flex flex-col justify-center items-center">
+                    <button
+                        class="relative font-inter text-base leading-normal font-medium text-neutral-50 group focus:text-neutral-400 gap-y-16">
+                        Following
+                        <div
+                            class="absolute block w-72 h-3 rounded-30 bg-twitterblue invisible group-focus:visible mt-[16px]">
+                        </div>
+                    </button>
+                </section>
+            </section>
+
+            <!-- frame 16 -->
+            <section class="flex flex-col items-center self-stretch border-b border-solid border-neutral-700">
+
+                <!-- 1st tweet -->
+                <!-- frame 9 -->
+                <section
+                    class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
+
+                    <!-- user avatar -->
+                    <a href="../src/user_profile.html">
+                            <div>
+                                <img src="../public/images/user.jpeg" alt="User avatar" class="w-[50px] h-[50px] shrink-0 rounded-200">
+                            </div>
+                    </a>
+
+                    <!-- frame 8 -->
+                    <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
+
+                        <!-- frame 27056 -->
+                        <div class="flex flex-col items-start gap-[4px] self-stretch">
+
+                            <!-- frame 27047 -->
+                            <div class="flex items-center gap-[1px] self-stretch">
+                                <!-- user info -->
+                                <div class="flex items-center gap-2">
+                                    <p class="text-neutral-50 font-inter text-base leading-normal font-medium">Harnik
+                                    </p>
+                                    <p class="text-neutral-500 font-inter text-base leading-normal font-normal">@handle
+                                        • 10h</p>
+                                </div>
+
+                            </div>
+
+                            <!-- tweet text -->
+                            <div class="self-stretch">
+                                <p class="text-neutral-50 font-inter text-base leading-normal font-normal">what colour
+                                    is your bugatti?</p>
+                            </div>
+
+                        </div>
+
+                        <!-- user actions -->
+                        <section class="flex py-12 px-0 justify-between items-center self-stretch">
+                            <!-- comment -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/comment.svg" alt="Comment"
+                                    class="w-[14.564px] h-[14.564px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">11</p>
+                            </div>
+
+                            <!-- retweet -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/retweet.svg" alt="Retweet" class="w-[17.844px] h-[12.079px]">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">270</p>
+                            </div>
+
+                            <!-- like -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/like.svg" alt="like"
+                                    class="w-[14.564px] h-[13.654px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">1869</p>
+                            </div>
+
+                            <!-- reach -->
+                            <div class="flex items-start gap-[5px]">
+                                <img src="../public/images/reach.svg" alt="like"
+                                    class="flex flex-col justify-center items-center">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">99.6K</p>
+                            </div>
+
+                            <!-- share -->
+                            <img src="../public/images/share.svg" alt="share"
+                                class="w-[15.3px] h-[17px] fill-neutral-500">
+                        </section>
+
+                    </div>
+                </section>
+
+                <!-- 2nd tweet -->
+                <!-- frame 9 -->
+                <section
+                    class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
+
+                    <!-- user avatar -->
+                    <div>
+                        <img src="../public/images/user-avatar-2.png" alt="User Avatar"
+                            class="w-[48px] h-[48px] shrink-0 rounded-[200px]">
+                    </div>
+
+                    <!-- frame 8 -->
+                    <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
+
+                        <!-- frame 27056 -->
+                        <div class="flex flex-col items-start gap-[4px] self-stretch">
+
+                            <!-- frame 27047 -->
+                            <div class="flex items-center gap-[1px] self-stretch">
+                                <!-- user info -->
+                                <div class="flex items-center gap-2">
+                                    <p class="text-neutral-50 font-inter text-base leading-normal font-medium">Paaji</p>
+                                    <p class="text-neutral-500 font-inter text-base leading-normal font-normal">
+                                        @sonofsardar • 59m</p>
+                                </div>
+
+                            </div>
+
+                            <!-- tweet text -->
+                            <div class="self-stretch">
+                                <p class="text-neutral-50 font-inter text-base leading-normal font-normal">i've seen
+                                    people absolutely despise auto layout in figma but i think it's a lifesaver- <br>1.
+                                    tidies everything nice and compact <br>2. makes responsive design effortless <br>3.
+                                    no manual adjustments post any tweaks <br>4. saves a tonnn of time <br><br>sorry,
+                                    but will stay an auto layout maxi all life.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- user actions -->
+                        <section class="flex py-12 px-0 justify-between items-center self-stretch">
+                            <!-- comment -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/comment.svg" alt="Comment"
+                                    class="w-[14.564px] h-[14.564px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">11</p>
+                            </div>
+
+                            <!-- retweet -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/retweet.svg" alt="Retweet" class="w-[17.844px] h-[12.079px]">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">270</p>
+                            </div>
+
+                            <!-- like -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/like.svg" alt="like"
+                                    class="w-[14.564px] h-[13.654px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">1869</p>
+                            </div>
+
+                            <!-- reach -->
+                            <div class="flex items-start gap-[5px]">
+                                <img src="../public/images/reach.svg" alt="like"
+                                    class="flex flex-col justify-center items-center">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">99.6K</p>
+                            </div>
+
+                            <!-- share -->
+                            <img src="../public/images/share.svg" alt="share"
+                                class="w-[15.3px] h-[17px] fill-neutral-500">
+                        </section>
+
+                    </div>
+                </section>
+
+                <!-- 3rd tweet -->
+                <!-- frame 9 -->
+                <section
+                    class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
+
+                    <!-- user avatar -->
+                    <div>
+                        <img src="../public/images/user-avatar-3.png" alt="User Avatar"
+                            class="w-[48px] h-[48px] shrink-0 rounded-[200px]">
+                    </div>
+
+                    <!-- frame 8 -->
+                    <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
+
+                        <!-- frame 27056 -->
+                        <div class="flex flex-col items-start gap-[4px] self-stretch">
+
+                            <!-- frame 27047 -->
+                            <div class="flex items-center gap-[1px] self-stretch">
+                                <!-- user info -->
+                                <div class="flex items-center gap-2">
+                                    <p class="text-neutral-50 font-inter text-base leading-normal font-medium">Andrew
+                                        tate</p>
+                                    <p class="text-neutral-500 font-inter text-base leading-normal font-normal">
+                                        @Cobratate • Oct 2</p>
+                                </div>
+
+                            </div>
+
+                            <!-- tweet text -->
+                            <div class="self-stretch">
+                                <p class="text-neutral-50 font-inter text-base leading-normal font-normal">Writing gets
+                                    easier after the first sentence. <br><br>Lifting gets easier after the first set.
+                                    <br><br>People think and think and think until they finally decide to act. Their
+                                    attention shifts from internal to external, and the difficulty they created in their
+                                    mind vanishes.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- user actions -->
+                        <section class="flex py-12 px-0 justify-between items-center self-stretch">
+                            <!-- comment -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/comment.svg" alt="Comment"
+                                    class="w-[14.564px] h-[14.564px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">11</p>
+                            </div>
+
+                            <!-- retweet -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/retweet.svg" alt="Retweet" class="w-[17.844px] h-[12.079px]">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">270</p>
+                            </div>
+
+                            <!-- like -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/like.svg" alt="like"
+                                    class="w-[14.564px] h-[13.654px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">1869</p>
+                            </div>
+
+                            <!-- reach -->
+                            <div class="flex items-start gap-[5px]">
+                                <img src="../public/images/reach.svg" alt="like"
+                                    class="flex flex-col justify-center items-center">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">99.6K</p>
+                            </div>
+
+                            <!-- share -->
+                            <img src="../public/images/share.svg" alt="share"
+                                class="w-[15.3px] h-[17px] fill-neutral-500">
+                        </section>
+
+                    </div>
+                </section>
+
+                <!-- 4th tweet -->
+                <!-- frame 9 -->
+                <section
+                    class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
+
+                    <!-- user avatar -->
+                    <div>
+                        <img src="../public/images/user-avatar-3.png" alt="User Avatar"
+                            class="w-[48px] h-[48px] shrink-0 rounded-[200px]">
+                    </div>
+
+                    <!-- frame 8 -->
+                    <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
+
+                        <!-- frame 27056 -->
+                        <div class="flex flex-col items-start gap-[4px] self-stretch">
+
+                            <!-- frame 27047 -->
+                            <div class="flex items-center gap-[1px] self-stretch">
+                                <!-- user info -->
+                                <div class="flex items-center gap-2">
+                                    <p class="text-neutral-50 font-inter text-base leading-normal font-medium">Andrew
+                                        tate</p>
+                                    <p class="text-neutral-500 font-inter text-base leading-normal font-normal">
+                                        @Cobratate • Oct 2</p>
+                                </div>
+
+                            </div>
+
+                            <!-- tweet text -->
+                            <div class="self-stretch">
+                                <p class="text-neutral-50 font-inter text-base leading-normal font-normal">Writing gets
+                                    easier after the first sentence. <br><br>Lifting gets easier after the first set.
+                                    <br><br>People think and think and think until they finally decide to act. Their
+                                    attention shifts from internal to external, and the difficulty they created in their
+                                    mind vanishes.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- user actions -->
+                        <section class="flex py-12 px-0 justify-between items-center self-stretch">
+                            <!-- comment -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/comment.svg" alt="Comment"
+                                    class="w-[14.564px] h-[14.564px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">11</p>
+                            </div>
+
+                            <!-- retweet -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/retweet.svg" alt="Retweet" class="w-[17.844px] h-[12.079px]">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">270</p>
+                            </div>
+
+                            <!-- like -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/like.svg" alt="like"
+                                    class="w-[14.564px] h-[13.654px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">1869</p>
+                            </div>
+
+                            <!-- reach -->
+                            <div class="flex items-start gap-[5px]">
+                                <img src="../public/images/reach.svg" alt="like"
+                                    class="flex flex-col justify-center items-center">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">99.6K</p>
+                            </div>
+
+                            <!-- share -->
+                            <img src="../public/images/share.svg" alt="share"
+                                class="w-[15.3px] h-[17px] fill-neutral-500">
+                        </section>
+
+                    </div>
+                </section>
+
+                <!-- 5th tweet -->
+                <!-- frame 9 -->
+                <section
+                    class="flex w-full py-8 px-16 items-start gap-16 self-stretch border-b border-solid border-neutral-700 bg-neutral-1000">
+
+                    <!-- user avatar -->
+                    <div>
+                        <img src="../public/images/user-avatar-3.png" alt="User Avatar"
+                            class="w-[48px] h-[48px] shrink-0 rounded-[200px]">
+                    </div>
+
+                    <!-- frame 8 -->
+                    <div class="flex flex-col items-start gap-[8px] grow shrink-0 basis-0">
+
+                        <!-- frame 27056 -->
+                        <div class="flex flex-col items-start gap-[4px] self-stretch">
+
+                            <!-- frame 27047 -->
+                            <div class="flex items-center gap-[1px] self-stretch">
+                                <!-- user info -->
+                                <div class="flex items-center gap-2">
+                                    <p class="text-neutral-50 font-inter text-base leading-normal font-medium">Andrew
+                                        tate</p>
+                                    <p class="text-neutral-500 font-inter text-base leading-normal font-normal">
+                                        @Cobratate • Oct 2</p>
+                                </div>
+
+                            </div>
+
+                            <!-- tweet text -->
+                            <div class="self-stretch">
+                                <p class="text-neutral-50 font-inter text-base leading-normal font-normal">Writing gets
+                                    easier after the first sentence. <br><br>Lifting gets easier after the first set.
+                                    <br><br>People think and think and think until they finally decide to act. Their
+                                    attention shifts from internal to external, and the difficulty they created in their
+                                    mind vanishes.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- user actions -->
+                        <section class="flex py-12 px-0 justify-between items-center self-stretch">
+                            <!-- comment -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/comment.svg" alt="Comment"
+                                    class="w-[14.564px] h-[14.564px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">11</p>
+                            </div>
+
+                            <!-- retweet -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/retweet.svg" alt="Retweet" class="w-[17.844px] h-[12.079px]">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">270</p>
+                            </div>
+
+                            <!-- like -->
+                            <div class="flex justify-center items-center gap-[5px]">
+                                <img src="../public/images/like.svg" alt="like"
+                                    class="w-[14.564px] h-[13.654px] stroke-[1.5px] stroke-neutral-500">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">1869</p>
+                            </div>
+
+                            <!-- reach -->
+                            <div class="flex items-start gap-[5px]">
+                                <img src="../public/images/reach.svg" alt="like"
+                                    class="flex flex-col justify-center items-center">
+                                <p class="text-neutral-500 font-inter text-sm leading-normal font-normal">99.6K</p>
+                            </div>
+
+                            <!-- share -->
+                            <img src="../public/images/share.svg" alt="share"
+                                class="w-[15.3px] h-[17px] fill-neutral-500">
+                        </section>
+
+                    </div>
+                </section>
+
+            </section>
+        </section>
+
+        <!-- compose tweet button -->
+        <a href="../src/compose_tweet.html">
+            <section class="fixed top-[585px] left-[320px]">
+                <button class="inline-flex p-16 items-start gap-10 rounded-[32px] bg-twitterblue shadow-3xl">
+                    <img src="../public/images/compose-tweet-plus.svg" alt="compose tweet"
+                        class="flex w-[32px] h-[32px] justify-center items-center">
+                </button>
+            </section>
+        </a>
+
+    </main>
+
+    <!-- footer -->
+    <section
+        class="flex w-390 py-[18px] px-24 justify-center items-center gap-[40px] border-t border-solid border-neutral-800 bg-neutral-1000 fixed top-[650px]">
+        <div>
+            <img src="../public/images/home.svg" alt="home icon" class="w-24 h-24 shrink-0">
+        </div>
+
+        <a href="../src/user_profile.html">
+            <button class="flex w-24 h-24 p-[4px] justify-center items-center shrink-0">
+                <img src="../public/images/profile-icon.svg" alt="profile icon" class="w-16 h-16 shrink-0">
+            </button>
+        </a>
+    </section>
+
+    <!-- frame 27193 -->
+    <section
+        class="flex py-12 px-[32px] justify-center items-center gap-10 fixed left-[90px] top-[600px] rounded-[100px] bg-searchbarfill">
+        <p class="text-neutral-50 font-inter text-[15px] leading-normal font-normal">
+            Copied to clipboard.
+        </p>
+    </section>
+</body>
+
+</html>
